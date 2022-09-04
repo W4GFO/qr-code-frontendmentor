@@ -1,0 +1,11 @@
+@import './Components/AllComponentsStyles.scss';
+
+div#root {
+	min-height: 100vh;
+	background:$primary_LightGray;
+
+	//Flex components
+	display:flex;
+	align-items: center;
+	justify-content: center;
+}
